@@ -1,0 +1,166 @@
+body
+{
+  background-color: black;
+}
+.about-head
+{
+  color: #f0edce;
+  text-align: center;
+  margin-left: -850px;
+  padding-top: 100px;
+  font-size:45px;
+  font-family: Arial;
+}
+.about-matter
+{
+  width:700px;
+  height: auto;
+  color:white;
+  letter-spacing: 1px;
+  font-family: Arial;
+  justify-content: center;
+  text-align: justify;
+  padding-left: 80px;
+  font-size: 20px;
+}
+.innovate
+{
+  position: absolute;
+  left:65%;
+  width: 300px;
+  height: 300px;
+  top: 14%;
+}
+.team-head
+{
+  color: #f0edce;
+  text-align: center;
+  margin-left: -650px;
+  padding-top: 100px;
+  font-size:35px;
+  font-family: Arial;
+
+}
+.animated {
+   -webkit-animation-duration: 1s;
+   animation-duration: 3s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+   animation-iteration-count: 3;
+}
+
+@-webkit-keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+   40% {-webkit-transform: translateY(-30px);}
+   60% {-webkit-transform: translateY(-15px);}
+}
+
+@keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+   40% {transform: translateY(-30px);}
+   60% {transform: translateY(-15px);}
+}
+
+.bounce {
+   -webkit-animation-name: bounce;
+   animation-name: bounce;
+}
+.team-head
+{
+  padding-left: 650px;
+}
+.team-matter
+{
+  margin-left: 100px;
+  width: 1300px;
+  height: 600px;
+  /* background-color: green; */
+  display: flex;
+}
+.card-1
+{
+  width:400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, .20);
+  backdrop-filter: blur(10px);
+  margin-right: 30px;
+  border-radius: 30px;
+}
+.card-2
+{
+  width:400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, .20);
+  backdrop-filter: blur(10px);
+  margin-right: 30px;
+  border-radius: 30px;
+}
+.card-3
+{
+  width:400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, .20);
+  backdrop-filter: blur(10px);
+  margin-right: 30px;
+  border-radius: 30px;
+
+}
+.card-4
+{
+  width:400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, .20);
+  backdrop-filter: blur(10px);
+  margin-right: 30px;
+  border-radius: 30px;
+}
+.card-5
+{
+  width:400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, .20);
+  backdrop-filter: blur(10px);
+  margin-right: 30px;
+  border-radius: 30px;
+}
+.im-hw
+{
+  margin-top: 20px;
+  margin-left: 50px;
+  width: 300px;
+  height: 257px;
+  border-radius: 30px !important;
+}
+.gif-hw
+{
+  margin-left: 60px;
+  width: 300px;
+  height: 400px;
+}
+.card-matter
+{
+  color: white;
+  font-size: 20px;
+  padding-left: 50px;
+  padding-top: 10px;
+  font-family: Arial;
+  padding-right: 40px;
+  text-align: justify;
+}
+.heading-t
+{
+  font-size: 20px;
+}
+.team-matter-1
+{
+  margin-top: -150px;
+  margin-left: 100px;
+  width: 1300px;
+  height: 600px;
+  /* background-color: green; */
+  display: flex;
+}
+.head-t
+{
+  padding-left: 200px;
+}
